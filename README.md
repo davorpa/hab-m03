@@ -14,26 +14,26 @@ We are hackers 🧑‍🎓🧑‍💻🧞, we are bossers 🕴️, we are remote
 **Git**. https://git-scm.com
 
 ```bash
-sudo apt-get install git
+sudo apt install git
 ```
 
 **NodeJS 12.x**. https://nodejs.org
 
 1. se puede instalar globalmente mediante:
 ```bash
-sudo apt-get install nodejs
+sudo apt install nodejs
 ```
 2. o a través de sus paquetes de NodeSource:
   https://github.com/nodesource/distributions
 ```bash
 # Instalamos el software previo
-sudo apt-get install curl
+sudo apt install curl
 
 # Descargamos el paquete, cargandolo en la sesion bash
 sudo curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 # y lo instalamos tomando la caché bash como fuente
-sudo apt-get install -y nodejs
+sudo apt install -y nodejs
 ```
 3. también mediante su gestor de versiones **nvm** el cual nos permite una mayor flexibilidad.
   https://github.com/nvm-sh/nvm
@@ -52,8 +52,8 @@ sudo snap install --classic code
 3. como paquete `.deb` utilizando `apt`:
 ```bash
 # Instalamos el software previo
-sudo apt-get update
-sudo apt-get install software-properties-common apt-transport-https wget
+sudo apt update
+sudo apt install software-properties-common apt-transport-https wget
 
 # Descargamos e instalamos los certificados con los que estan firmados los paquetes de Microsoft
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
@@ -91,12 +91,17 @@ code .
 ```
 
 
-## Extensiones para VS Code
+## VS Code extensions
 
-Es util instalar:
+Es útil instalar:
 
-- [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig): Permite a traves de un fichero `.editorconfig` dar unas reglas de formateo básico a nuestros ficheros mediante unas reglas básicas: espacios en blanco, tamaño y tipo de indentado...
+- [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig): Permite a través de un fichero `.editorconfig` dar unas reglas de formateo básico a nuestros ficheros mediante unos parámetros: _espacios y líneas en blanco, tamaño y tipo de indentado_...
+
 - [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2): Ayuda visualmente al desarrollador con un mejor resaltado, entre otras cosas, de sintaxis en cuanto a parentesis, llaves y corchetes.
+
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner): Nos permite que nuestro código pase un analizador de sintaxis en segundo plano a partir de unas reglas _(indentación, formateado...)_ que definamos flexiblemente mediante ficheros de configuración `[package.json, eslintrc, .eslintignore]` bajo la estructura de nuestro proyecto.
+
+- [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner): Nos permite ejecutar de forma simple mediante un comando o un click cualquier trozo de código (snippet) o fichero en una gran variedad de lenguajes, entre ellos Javascript.
 
 
 ## How to contribute
