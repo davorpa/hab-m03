@@ -1,7 +1,7 @@
 {
   "name": "dia-02",
   "version": "1.0.0",
-  "description": "MOD 03 - Dia 02",
+  "description": "MOD 03 - Día 02",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
