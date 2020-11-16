@@ -6,13 +6,20 @@ Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in
 
 Also, read an focus on next extra sections.
 
-Thanks you a lot for your understanding.
+**Thanks you a lot 🙏 for your understanding.**
+
+
+## CI/CD Productivity tools
+
+🚧
+
 
 ## Issues Process
 
 __This proyect doesn't accept issues__.
 
 Any intent, will be auto-closed and reported to hosted platform (GitHub, GitLab, BitBucket, ...) support team as spam.
+
 
 ## Pull Request Process
 
