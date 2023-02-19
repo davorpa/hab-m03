@@ -2,15 +2,14 @@
   "name": "dia-02",
   "version": "1.0.0",
   "description": "MOD 03 - Día 02",
-  "main": "index.js",
+  "keywords": [],
+  "author": "davorpatech",
+  "license": "AGPL-3.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "browser-sync start --server './' --files './'"
   },
-  "keywords": [],
-  "author": "davorpatech",
-  "license": "AGPL-3.0",
   "devDependencies": {
-    "browser-sync": "^2.26.13"
+    "browser-sync": "2.27.11"
   }
 }
